@@ -1,6 +1,8 @@
 package com.example.hw02.task2
 
 fun main() {
+
+//    Bagian A
     val daysRemaining = 7
     if (daysRemaining < 0) {
         println("Overdue")
@@ -9,6 +11,8 @@ fun main() {
     } else {
         println("Upcoming")
     }
+
+//    Bagian B
     val month = 11
     val monthName = when (month) {
         1 -> "January"
