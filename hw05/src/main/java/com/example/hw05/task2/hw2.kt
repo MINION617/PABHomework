@@ -7,7 +7,7 @@ fun printIf(items: List<String>, condition: (String) -> Boolean) {
 }
 fun <T> transform(list: List<T>, mapper: (T) -> String): List<String> = list.map(mapper)
 fun main() {
-    val ganda: (Int) -> Int = { it * 2 }
+    val ganda ={ angka :Int ->  angka * 2 }
     val mulaiVokal: (String) -> Boolean = {
         it.isNotEmpty() && it.first().lowercaseChar() in "aeiou"
     }

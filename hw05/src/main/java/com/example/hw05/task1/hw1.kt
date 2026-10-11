@@ -2,7 +2,7 @@ package com.example.hw05.task1
 
 fun main() {
 //    Fungsi ganda
-    val ganda: (Int) -> Int = { it * 2 }
+    val ganda ={ angka :Int ->  angka * 2 }
     println(ganda(7))
 //    Cek huruf vokal di awal kata
     val mulaiVokal: (String) -> Boolean = {
